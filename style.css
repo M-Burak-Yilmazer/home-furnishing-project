@@ -1,5 +1,76 @@
-*{
-    border:0;
-    margin:0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Judson&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellota:wght@300;400&display=swap");
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #efefef;
+  font-family: "Judson", serif;
+}
+.container {
+  width: 80%;
+  background-color: #eeecec;
+  margin: 42px auto;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 50px black;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   header                                   */
+/* -------------------------------------------------------------------------- */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.logo {
+  height: 50px;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: -1px 1px 5px;
+}
+.input-part {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+select {
+  font-family: "Bellota", cursive;
+  font-weight: 700;
+  font-size: 17.6px;
+  height: 40px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 188px;
+  padding: 5px;
+}
+.search-input {
+  height: 40px;
+  width: 300px;
+  background-color: #d9d9d9;
+  margin-left: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-input input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  height: 35px;
+  width: 190px;
+}
+.search-input img {
+  height: 30px;
+  width:30px;
+  margin: 16px;
 }
